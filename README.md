@@ -6,6 +6,6 @@
 
 Fourth project of PHP/Symfony journey to learn web development with OpenClassrooms
 
-**Lucidchart, phpMyAdmin**
+**ExpressFood, phpMyAdmin**
 
 [Preview-site](https://github.com/FlorianJourde)
