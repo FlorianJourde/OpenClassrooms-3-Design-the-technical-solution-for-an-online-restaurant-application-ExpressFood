@@ -1,0 +1,1518 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="3325.0706"
+   height="1693.2667"
+   viewBox="-480 -216 1868.9152 945.58736"
+   id="svg3004">
+  <title
+     id="title3266">UML diagram of IEEE1484.12.1 Learning Object Metadata (LOM) base schema.</title>
+  <metadata
+     id="metadata3570">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>UML diagram of IEEE1484.12.1 Learning Object Metadata (LOM) base schema.</dc:title>
+        <dc:description>An UML diagram of IEEE1484.12.1 Learning Object Metadata (LOM) base schema.</dc:description>
+        <dc:date>2011-08-06</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Erwan le Gall</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>GFDL</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:language>en</dc:language>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/" />
+        <dc:source>http://en.wikipedia.org/wiki/File:LOM_base_schema.png</dc:source>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>Learning Object Metadata</rdf:li>
+            <rdf:li>LOM</rdf:li>
+            <rdf:li>schema</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:coverage></dc:coverage>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>PNG version:original work by Rjgodoy under cc-by-sa 3.0</dc:title>
+          </cc:Agent>
+        </dc:contributor>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Wikipedia Foundation</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3568" />
+  <g
+     transform="translate(-34.276079,7.977944)"
+     id="g3006">
+    <rect
+       width="162.25"
+       height="28"
+       x="379.34201"
+       y="-214.772"
+       id="rect3008"
+       style="fill:#ffffff" />
+    <rect
+       width="162.25"
+       height="28"
+       x="379.34201"
+       y="-214.772"
+       id="rect3010"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="460.46701"
+       y="-195.772"
+       id="text3012"
+       style="font-size:16px;font-style:normal;font-weight:700;text-anchor:middle;fill:#000000;font-family:sanserif">LOMv1.0 schema</text>
+    <rect
+       width="162.25"
+       height="20"
+       x="379.34201"
+       y="-186.772"
+       id="rect3014"
+       style="fill:#ffffff" />
+    <rect
+       width="162.25"
+       height="20"
+       x="379.34201"
+       y="-186.772"
+       id="rect3016"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="382.34201"
+       y="-172.772"
+       id="text3018"
+       style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace" />
+  </g>
+  <g
+     transform="translate(-34.276079,7.977944)"
+     id="g3020">
+    <rect
+       width="385.89999"
+       height="28"
+       x="267.51599"
+       y="227.978"
+       id="rect3022"
+       style="fill:#ffffff" />
+    <rect
+       width="385.89999"
+       height="28"
+       x="267.51599"
+       y="227.978"
+       id="rect3024"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="460.466"
+       y="246.978"
+       id="text3026"
+       style="font-size:16px;font-style:normal;font-weight:700;text-anchor:middle;fill:#000000;font-family:sanserif">4. Technical</text>
+    <rect
+       width="385.89999"
+       height="124"
+       x="267.51599"
+       y="255.978"
+       id="rect3028"
+       style="fill:#ffffff" />
+    <rect
+       width="385.89999"
+       height="124"
+       x="267.51599"
+       y="255.978"
+       id="rect3030"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="270.51599"
+       y="272.978"
+       id="text3032"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">Format [0..*]: CharacterString</text>
+    <text
+       x="270.51599"
+       y="292.978"
+       id="text3034"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">Size [0..1]: CharacterString</text>
+    <text
+       x="270.51599"
+       y="312.978"
+       id="text3036"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">Location [0..*]: CharacterString</text>
+    <text
+       x="270.51599"
+       y="332.978"
+       id="text3038"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">InstallationRemarks [0..*]: Langstring</text>
+    <text
+       x="270.51599"
+       y="352.978"
+       id="text3040"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">OtherPlatform Requirements [0..*]: Langstring</text>
+    <text
+       x="270.51599"
+       y="372.978"
+       id="text3042"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">Duration [0..1]: Duration</text>
+  </g>
+  <g
+     transform="translate(-34.276079,7.977944)"
+     id="g3044">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:2"
+       points="460.467,-140.594 460.467,31.1061 460.466,31.1061 460.466,227.978 "
+       id="polyline3046" />
+    <polygon
+       points="465.267,-151.766 460.467,-137.766 455.667,-151.766 460.467,-165.766 "
+       id="polygon3048"
+       style="fill:#000000" />
+    <polygon
+       points="465.267,-151.766 460.467,-137.766 455.667,-151.766 460.467,-165.766 "
+       id="polygon3050"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="460.466"
+       y="27.1061"
+       id="text3052"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:monospace" />
+    <text
+       x="471.46701"
+       y="-153.76601"
+       id="text3054"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace" />
+    <text
+       x="464.466"
+       y="223.978"
+       id="text3056"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace">0..1</text>
+  </g>
+  <g
+     transform="translate(-34.276079,7.977944)"
+     id="g3058">
+    <rect
+       width="247.7"
+       height="28"
+       x="-370.29001"
+       y="-64.083801"
+       id="rect3060"
+       style="fill:#ffffff" />
+    <rect
+       width="247.7"
+       height="28"
+       x="-370.29001"
+       y="-64.083801"
+       id="rect3062"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="-246.44"
+       y="-45.083801"
+       id="text3064"
+       style="font-size:16px;font-style:normal;font-weight:700;text-anchor:middle;fill:#000000;font-family:sanserif">Resource</text>
+    <rect
+       width="247.7"
+       height="24"
+       x="-370.29001"
+       y="-36.083801"
+       id="rect3066"
+       style="fill:#ffffff" />
+    <rect
+       width="247.7"
+       height="24"
+       x="-370.29001"
+       y="-36.083801"
+       id="rect3068"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="-367.29001"
+       y="-19.083799"
+       id="text3070"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">Description [0..*]: Langstring</text>
+  </g>
+  <g
+     transform="translate(-34.276079,7.977944)"
+     id="g3072">
+    <rect
+       width="217.64999"
+       height="28"
+       x="-3.3332801"
+       y="227.978"
+       id="rect3074"
+       style="fill:#ffffff" />
+    <rect
+       width="217.64999"
+       height="28"
+       x="-3.3332801"
+       y="227.978"
+       id="rect3076"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="105.492"
+       y="246.978"
+       id="text3078"
+       style="font-size:16px;font-style:normal;font-weight:700;text-anchor:middle;fill:#000000;font-family:sanserif">2. Lifecycle</text>
+    <rect
+       width="217.64999"
+       height="44"
+       x="-3.3332801"
+       y="255.978"
+       id="rect3080"
+       style="fill:#ffffff" />
+    <rect
+       width="217.64999"
+       height="44"
+       x="-3.3332801"
+       y="255.978"
+       id="rect3082"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="-0.33328"
+       y="272.978"
+       id="text3084"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">Version [0..1]: Langstring</text>
+    <text
+       x="-0.33328"
+       y="292.978"
+       id="text3086"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">Status [0..1]: State</text>
+  </g>
+  <g
+     transform="translate(-34.276079,7.977944)"
+     id="g3088">
+    <rect
+       width="340.60001"
+       height="28"
+       x="-248.74001"
+       y="456.716"
+       id="rect3090"
+       style="fill:#ffffff" />
+    <rect
+       width="340.60001"
+       height="28"
+       x="-248.74001"
+       y="456.716"
+       id="rect3092"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="-78.440002"
+       y="475.716"
+       id="text3094"
+       style="font-size:16px;font-style:normal;font-weight:700;text-anchor:middle;fill:#000000;font-family:sanserif">3. Meta-Metadata</text>
+    <rect
+       width="340.60001"
+       height="24"
+       x="-248.74001"
+       y="484.716"
+       id="rect3096"
+       style="fill:#ffffff" />
+    <rect
+       width="340.60001"
+       height="24"
+       x="-248.74001"
+       y="484.716"
+       id="rect3098"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="-245.74001"
+       y="501.716"
+       id="text3100"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">MetadataSchema [0..1]: CharacterString</text>
+  </g>
+  <g
+     transform="translate(-34.276079,7.977944)"
+     id="g3102">
+    <rect
+       width="151.35001"
+       height="28"
+       x="-16.3549"
+       y="-64.083801"
+       id="rect3104"
+       style="fill:#ffffff" />
+    <rect
+       width="151.35001"
+       height="28"
+       x="-16.3549"
+       y="-64.083801"
+       id="rect3106"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="59.320099"
+       y="-45.083801"
+       id="text3108"
+       style="font-size:16px;font-style:normal;font-weight:700;text-anchor:middle;fill:#000000;font-family:sanserif">7. Relation</text>
+    <rect
+       width="151.35001"
+       height="24"
+       x="-16.3549"
+       y="-36.083801"
+       id="rect3110"
+       style="fill:#ffffff" />
+    <rect
+       width="151.35001"
+       height="24"
+       x="-16.3549"
+       y="-36.083801"
+       id="rect3112"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="-13.3549"
+       y="-19.083799"
+       id="text3114"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">Kind [0..1]: State</text>
+  </g>
+  <g
+     transform="translate(-34.276079,7.977944)"
+     id="g3116">
+    <rect
+       width="249.89999"
+       height="28"
+       x="189.737"
+       y="21.667601"
+       id="rect3118"
+       style="fill:#ffffff" />
+    <rect
+       width="249.89999"
+       height="28"
+       x="189.737"
+       y="21.667601"
+       id="rect3120"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="314.68701"
+       y="40.667599"
+       id="text3122"
+       style="font-size:16px;font-style:normal;font-weight:700;text-anchor:middle;fill:#000000;font-family:sanserif">8. Annotation</text>
+    <rect
+       width="249.89999"
+       height="64"
+       x="189.737"
+       y="49.667599"
+       id="rect3124"
+       style="fill:#ffffff" />
+    <rect
+       width="249.89999"
+       height="64"
+       x="189.737"
+       y="49.667599"
+       id="rect3126"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="192.737"
+       y="66.667603"
+       id="text3128"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">Entity [0..1]: CharacterString</text>
+    <text
+       x="192.737"
+       y="86.667603"
+       id="text3130"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">Date [0..1]: DateTime</text>
+    <text
+       x="192.737"
+       y="106.668"
+       id="text3132"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">Description [0..1]: Langstring</text>
+  </g>
+  <g
+     transform="translate(-34.276079,7.977944)"
+     id="g3134">
+    <rect
+       width="310.95001"
+       height="28"
+       x="696.99597"
+       y="227.978"
+       id="rect3136"
+       style="fill:#ffffff" />
+    <rect
+       width="310.95001"
+       height="28"
+       x="696.99597"
+       y="227.978"
+       id="rect3138"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="852.47101"
+       y="246.978"
+       id="text3140"
+       style="font-size:16px;font-style:normal;font-weight:700;text-anchor:middle;fill:#000000;font-family:sanserif">5. Educational</text>
+    <rect
+       width="310.95001"
+       height="224"
+       x="696.99597"
+       y="255.978"
+       id="rect3142"
+       style="fill:#ffffff" />
+    <rect
+       width="310.95001"
+       height="224"
+       x="696.99597"
+       y="255.978"
+       id="rect3144"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="699.99597"
+       y="272.978"
+       id="text3146"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">InteractivityType [0..1]: State</text>
+    <text
+       x="699.99597"
+       y="292.978"
+       id="text3148"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">LearningResourceType [0..*]: State</text>
+    <text
+       x="699.99597"
+       y="312.978"
+       id="text3150"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">InteractivityLevel [0..1]: Enumerated</text>
+    <text
+       x="699.99597"
+       y="332.978"
+       id="text3152"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">SemanticDensity [0..1]: Enumerated</text>
+    <text
+       x="699.99597"
+       y="352.978"
+       id="text3154"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">IntendedEndUserRole [0..*]: State</text>
+    <text
+       x="699.99597"
+       y="372.978"
+       id="text3156"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">Context [0..*]: State</text>
+    <text
+       x="699.99597"
+       y="392.978"
+       id="text3158"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">TypicaIAgeRange [0..*]: Langstring</text>
+    <text
+       x="699.99597"
+       y="412.978"
+       id="text3160"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">Difficulty [0..1]: Enumerated</text>
+    <text
+       x="699.99597"
+       y="432.978"
+       id="text3162"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">TypicalLearningTime [0..1]: Duration</text>
+    <text
+       x="699.99597"
+       y="452.978"
+       id="text3164"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">Description [0..*]: Langstring</text>
+    <text
+       x="699.99597"
+       y="472.978"
+       id="text3166"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">Language [0..*]: CharacterString</text>
+  </g>
+  <g
+     transform="translate(-34.276079,7.977944)"
+     id="g3168">
+    <rect
+       width="371.85001"
+       height="28"
+       x="1039.1"
+       y="227.978"
+       id="rect3170"
+       style="fill:#ffffff" />
+    <rect
+       width="371.85001"
+       height="28"
+       x="1039.1"
+       y="227.978"
+       id="rect3172"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="1225.03"
+       y="246.978"
+       id="text3174"
+       style="font-size:16px;font-style:normal;font-weight:700;text-anchor:middle;fill:#000000;font-family:sanserif">6. Rights</text>
+    <rect
+       width="371.85001"
+       height="64"
+       x="1039.1"
+       y="255.978"
+       id="rect3176"
+       style="fill:#ffffff" />
+    <rect
+       width="371.85001"
+       height="64"
+       x="1039.1"
+       y="255.978"
+       id="rect3178"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="1042.1"
+       y="272.978"
+       id="text3180"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">Cost [0..1]: State</text>
+    <text
+       x="1042.1"
+       y="292.978"
+       id="text3182"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">Copyright and other restrictions [0..1]: State</text>
+    <text
+       x="1042.1"
+       y="312.978"
+       id="text3184"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">Description [0..1]: Langstring</text>
+  </g>
+  <g
+     transform="translate(-34.276079,7.977944)"
+     id="g3186">
+    <rect
+       width="220.14999"
+       height="28"
+       x="-356.51401"
+       y="638.93597"
+       id="rect3188"
+       style="fill:#ffffff" />
+    <rect
+       width="220.14999"
+       height="28"
+       x="-356.51401"
+       y="638.93597"
+       id="rect3190"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="-246.439"
+       y="657.93597"
+       id="text3192"
+       style="font-size:16px;font-style:normal;font-weight:700;text-anchor:middle;fill:#000000;font-family:sanserif">Identifier</text>
+    <rect
+       width="220.14999"
+       height="44"
+       x="-356.51401"
+       y="666.93597"
+       id="rect3194"
+       style="fill:#ffffff" />
+    <rect
+       width="220.14999"
+       height="44"
+       x="-356.51401"
+       y="666.93597"
+       id="rect3196"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="-353.51401"
+       y="683.93597"
+       id="text3198"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">Catalog [0..1]: Langstring</text>
+    <text
+       x="-353.51401"
+       y="703.93597"
+       id="text3200"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">Entry [0..1]: Langstring</text>
+  </g>
+  <g
+     transform="translate(-34.276079,7.977944)"
+     id="g3202">
+    <rect
+       width="213.75"
+       height="28"
+       x="851.64398"
+       y="56.854"
+       id="rect3204"
+       style="fill:#ffffff" />
+    <rect
+       width="213.75"
+       height="28"
+       x="851.64398"
+       y="56.854"
+       id="rect3206"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="958.51898"
+       y="75.853996"
+       id="text3208"
+       style="font-size:16px;font-style:normal;font-weight:700;text-anchor:middle;fill:#000000;font-family:sanserif">TaxonPath</text>
+    <rect
+       width="213.75"
+       height="24"
+       x="851.64398"
+       y="84.853996"
+       id="rect3210"
+       style="fill:#ffffff" />
+    <rect
+       width="213.75"
+       height="24"
+       x="851.64398"
+       y="84.853996"
+       id="rect3212"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="854.64398"
+       y="101.854"
+       id="text3214"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">Source [0..1]: Langstring</text>
+  </g>
+  <g
+     transform="translate(-34.276079,7.977944)"
+     id="g3216">
+    <rect
+       width="215.39999"
+       height="28"
+       x="1150.84"
+       y="56.854"
+       id="rect3218"
+       style="fill:#ffffff" />
+    <rect
+       width="215.39999"
+       height="28"
+       x="1150.84"
+       y="56.854"
+       id="rect3220"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="1258.54"
+       y="75.853996"
+       id="text3222"
+       style="font-size:16px;font-style:normal;font-weight:700;text-anchor:middle;fill:#000000;font-family:sanserif">Taxon</text>
+    <rect
+       width="215.39999"
+       height="44"
+       x="1150.84"
+       y="84.853996"
+       id="rect3224"
+       style="fill:#ffffff" />
+    <rect
+       width="215.39999"
+       height="44"
+       x="1150.84"
+       y="84.853996"
+       id="rect3226"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="1153.84"
+       y="101.854"
+       id="text3228"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">Id [0..1]: CharacterString</text>
+    <text
+       x="1153.84"
+       y="121.854"
+       id="text3230"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">Entry [0..1]: Langstring</text>
+  </g>
+  <g
+     transform="translate(-34.276079,7.977944)"
+     id="g3232">
+    <rect
+       width="249.89999"
+       height="28"
+       x="608.49402"
+       y="-64.083801"
+       id="rect3234"
+       style="fill:#ffffff" />
+    <rect
+       width="249.89999"
+       height="28"
+       x="608.49402"
+       y="-64.083801"
+       id="rect3236"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="733.44397"
+       y="-45.083801"
+       id="text3238"
+       style="font-size:16px;font-style:normal;font-weight:700;text-anchor:middle;fill:#000000;font-family:sanserif">9. Classification</text>
+    <rect
+       width="249.89999"
+       height="64"
+       x="608.49402"
+       y="-36.083801"
+       id="rect3240"
+       style="fill:#ffffff" />
+    <rect
+       width="249.89999"
+       height="64"
+       x="608.49402"
+       y="-36.083801"
+       id="rect3242"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="611.49402"
+       y="-19.083799"
+       id="text3244"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">Purpose [0..1]: State</text>
+    <text
+       x="611.49402"
+       y="0.91619998"
+       id="text3246"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">Description [0..1]: Langstring</text>
+    <text
+       x="611.49402"
+       y="20.916201"
+       id="text3248"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">Keyword [0..*]: Langstring</text>
+  </g>
+  <g
+     transform="translate(-34.276079,7.977944)"
+     id="g3250">
+    <rect
+       width="338.29999"
+       height="28"
+       x="291.31601"
+       y="577.31799"
+       id="rect3252"
+       style="fill:#ffffff" />
+    <rect
+       width="338.29999"
+       height="28"
+       x="291.31601"
+       y="577.31799"
+       id="rect3254"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="460.466"
+       y="596.31799"
+       id="text3256"
+       style="font-size:16px;font-style:normal;font-weight:700;text-anchor:middle;fill:#000000;font-family:sanserif">OrComposite</text>
+    <rect
+       width="338.29999"
+       height="84"
+       x="291.31601"
+       y="605.31799"
+       id="rect3258"
+       style="fill:#ffffff" />
+    <rect
+       width="338.29999"
+       height="84"
+       x="291.31601"
+       y="605.31799"
+       id="rect3260"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="294.31601"
+       y="622.31799"
+       id="text3262"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">Type [0..1]: State</text>
+    <text
+       x="294.31601"
+       y="642.31799"
+       id="text3264"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">Name [0..1]: State</text>
+    <text
+       x="294.31601"
+       y="662.31799"
+       id="text3266"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">MinimumVersion [0..1]: CharacterString</text>
+    <text
+       x="294.31601"
+       y="682.31799"
+       id="text3268"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">MaximumVersion [0..1]: CharacterString</text>
+  </g>
+  <g
+     transform="translate(-34.276079,7.977944)"
+     id="g3270">
+    <rect
+       width="245"
+       height="28"
+       x="-17.008301"
+       y="620.47601"
+       id="rect3272"
+       style="fill:#ffffff" />
+    <rect
+       width="245"
+       height="28"
+       x="-17.008301"
+       y="620.47601"
+       id="rect3274"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="105.492"
+       y="639.47601"
+       id="text3276"
+       style="font-size:16px;font-style:normal;font-weight:700;text-anchor:middle;fill:#000000;font-family:sanserif">Contribute</text>
+    <rect
+       width="245"
+       height="64"
+       x="-17.008301"
+       y="648.47601"
+       id="rect3278"
+       style="fill:#ffffff" />
+    <rect
+       width="245"
+       height="64"
+       x="-17.008301"
+       y="648.47601"
+       id="rect3280"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="-14.0083"
+       y="665.47601"
+       id="text3282"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">Role [0..1]: State</text>
+    <text
+       x="-14.0083"
+       y="685.47601"
+       id="text3284"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">Entity [0..*]: CharacterString</text>
+    <text
+       x="-14.0083"
+       y="705.47601"
+       id="text3286"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">Date [0..1]: DateTime</text>
+  </g>
+  <g
+     transform="translate(-34.276079,7.977944)"
+     id="g3288">
+    <rect
+       width="126.8"
+       height="28"
+       x="397.06601"
+       y="452.01001"
+       id="rect3290"
+       style="fill:#ffffff" />
+    <rect
+       width="126.8"
+       height="28"
+       x="397.06601"
+       y="452.01001"
+       id="rect3292"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="460.466"
+       y="471.01001"
+       id="text3294"
+       style="font-size:16px;font-style:normal;font-weight:700;text-anchor:middle;fill:#000000;font-family:sanserif">Requirement</text>
+    <rect
+       width="126.8"
+       height="24"
+       x="397.06601"
+       y="480.01001"
+       id="rect3296"
+       style="fill:#ffffff" />
+    <rect
+       width="126.8"
+       height="24"
+       x="397.06601"
+       y="480.01001"
+       id="rect3298"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="400.06601"
+       y="497.01001"
+       id="text3300"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif" />
+  </g>
+  <g
+     transform="translate(-34.276079,7.977944)"
+     id="g3302">
+    <rect
+       width="297.14999"
+       height="28"
+       x="-395.01599"
+       y="227.978"
+       id="rect3304"
+       style="fill:#ffffff" />
+    <rect
+       width="297.14999"
+       height="28"
+       x="-395.01599"
+       y="227.978"
+       id="rect3306"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="-246.44099"
+       y="246.978"
+       id="text3308"
+       style="font-size:16px;font-style:normal;font-weight:700;text-anchor:middle;fill:#000000;font-family:sanserif">1. General</text>
+    <rect
+       width="297.14999"
+       height="144"
+       x="-395.01599"
+       y="255.978"
+       id="rect3310"
+       style="fill:#ffffff" />
+    <rect
+       width="297.14999"
+       height="144"
+       x="-395.01599"
+       y="255.978"
+       id="rect3312"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="-392.01599"
+       y="272.978"
+       id="text3314"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">Title [0..1]: Langstring</text>
+    <text
+       x="-392.01599"
+       y="292.978"
+       id="text3316"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">Language [0..*]: CharacterString</text>
+    <text
+       x="-392.01599"
+       y="312.978"
+       id="text3318"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">Description [0..*]: Langstring</text>
+    <text
+       x="-392.01599"
+       y="332.978"
+       id="text3320"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">Keyword [0..*]: Langstring</text>
+    <text
+       x="-392.01599"
+       y="352.978"
+       id="text3322"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">Coverage [0..*]: Langstring</text>
+    <text
+       x="-392.01599"
+       y="372.978"
+       id="text3324"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">Structure [1]: State</text>
+    <text
+       x="-392.01599"
+       y="392.978"
+       id="text3326"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sanserif">Aggregation Level [1]: Enumerated</text>
+  </g>
+  <g
+     transform="translate(-34.276079,7.977944)"
+     id="g3328">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:2"
+       points="-42.5359,-38.0838 -121.582,-38.0838 -121.582,-38.0838 "
+       id="polyline3330" />
+    <polygon
+       points="-31.3643,-33.2838 -45.3643,-38.0838 -31.3643,-42.8838 -17.3643,-38.0838 "
+       id="polygon3332"
+       style="fill:#000000" />
+    <polygon
+       points="-31.3643,-33.2838 -45.3643,-38.0838 -31.3643,-42.8838 -17.3643,-38.0838 "
+       id="polygon3334"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="-69.473297"
+       y="-42.083801"
+       id="text3336"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:monospace" />
+    <text
+       x="-49.3643"
+       y="-42.083801"
+       id="text3338"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:end;fill:#000000;font-family:monospace" />
+    <text
+       x="-117.582"
+       y="-42.083801"
+       id="text3340"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace">0..1</text>
+  </g>
+  <g
+     transform="translate(-34.276079,7.977944)"
+     id="g3342">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:2"
+       points="460.467,-140.606 460.467,-50 314.688,-50 314.688,21.6676 "
+       id="polyline3344" />
+    <polygon
+       points="465.267,-151.778 460.467,-137.778 455.667,-151.778 460.467,-165.778 "
+       id="polygon3346"
+       style="fill:#ffffff" />
+    <polygon
+       points="465.267,-151.778 460.467,-137.778 455.667,-151.778 460.467,-165.778 "
+       id="polygon3348"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="387.577"
+       y="-54"
+       id="text3350"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:monospace" />
+    <text
+       x="471.46701"
+       y="-153.778"
+       id="text3352"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace" />
+    <text
+       x="318.68799"
+       y="17.667601"
+       id="text3354"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace">0..*</text>
+  </g>
+  <g
+     transform="translate(-34.276079,7.977944)"
+     id="g3356">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:2"
+       points="460.467,-141.6 460.467,-50.0838 134.995,-50.0838 "
+       id="polyline3358" />
+    <polygon
+       points="465.267,-152.772 460.467,-138.772 455.667,-152.772 460.467,-166.772 "
+       id="polygon3360"
+       style="fill:#ffffff" />
+    <polygon
+       points="465.267,-152.772 460.467,-138.772 455.667,-152.772 460.467,-166.772 "
+       id="polygon3362"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="297.73099"
+       y="-54.083801"
+       id="text3364"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:monospace" />
+    <text
+       x="471.46701"
+       y="-154.772"
+       id="text3366"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace" />
+    <text
+       x="138.995"
+       y="-54.083801"
+       id="text3368"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace">0..*</text>
+  </g>
+  <g
+     transform="translate(-34.276079,7.977944)"
+     id="g3370">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:2"
+       points="460.467,-141.6 460.467,-50.0838 608.494,-50.0838 "
+       id="polyline3372" />
+    <polygon
+       points="465.267,-152.772 460.467,-138.772 455.667,-152.772 460.467,-166.772 "
+       id="polygon3374"
+       style="fill:#ffffff" />
+    <polygon
+       points="465.267,-152.772 460.467,-138.772 455.667,-152.772 460.467,-166.772 "
+       id="polygon3376"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="534.48102"
+       y="-54.083801"
+       id="text3378"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:monospace" />
+    <text
+       x="471.46701"
+       y="-154.772"
+       id="text3380"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace" />
+    <text
+       x="604.49402"
+       y="-54.083801"
+       id="text3382"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:end;fill:#000000;font-family:monospace">0..*</text>
+  </g>
+  <g
+     transform="translate(-34.276079,7.977944)"
+     id="g3384">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:2"
+       points="883.566,-50.0838 958.519,-50.0838 958.519,56.854 "
+       id="polyline3386" />
+    <polygon
+       points="872.394,-54.8838 886.394,-50.0838 872.394,-45.2838 858.394,-50.0838 "
+       id="polygon3388"
+       style="fill:#000000" />
+    <polygon
+       points="872.394,-54.8838 886.394,-50.0838 872.394,-45.2838 858.394,-50.0838 "
+       id="polygon3390"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="908.45697"
+       y="-54.083801"
+       id="text3392"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:monospace" />
+    <text
+       x="890.39398"
+       y="-54.083801"
+       id="text3394"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace" />
+    <text
+       x="962.51898"
+       y="52.854"
+       id="text3396"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace">0..*</text>
+  </g>
+  <g
+     transform="translate(-34.276079,7.977944)"
+     id="g3398">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:2"
+       points="1090.57,70.854 1150.84,70.854 1150.84,70.854 "
+       id="polyline3400" />
+    <polygon
+       points="1079.39,66.054 1093.39,70.854 1079.39,75.654 1065.39,70.854 "
+       id="polygon3402"
+       style="fill:#000000" />
+    <polygon
+       points="1079.39,66.054 1093.39,70.854 1079.39,75.654 1065.39,70.854 "
+       id="polygon3404"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="1108.12"
+       y="66.853996"
+       id="text3406"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:monospace" />
+    <text
+       x="1097.39"
+       y="66.853996"
+       id="text3408"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace" />
+    <text
+       x="1146.84"
+       y="66.853996"
+       id="text3410"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:end;fill:#000000;font-family:monospace">0..*</text>
+  </g>
+  <g
+     transform="translate(-34.276079,7.977944)"
+     id="g3412">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:2"
+       points="460.467,-140.592 460.467,172.305 105.492,172.305 105.492,227.978 "
+       id="polyline3414" />
+    <polygon
+       points="465.267,-151.764 460.467,-137.764 455.667,-151.764 460.467,-165.764 "
+       id="polygon3416"
+       style="fill:#000000" />
+    <polygon
+       points="465.267,-151.764 460.467,-137.764 455.667,-151.764 460.467,-165.764 "
+       id="polygon3418"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="282.979"
+       y="168.30499"
+       id="text3420"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:monospace" />
+    <text
+       x="471.46701"
+       y="-153.76401"
+       id="text3422"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace" />
+    <text
+       x="109.492"
+       y="223.978"
+       id="text3424"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace">0..1</text>
+  </g>
+  <g
+     transform="translate(-34.276079,7.977944)"
+     id="g3426">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:2"
+       points="460.467,-140.592 460.467,172.305 -246.44,172.305 -246.44,227.978 "
+       id="polyline3428" />
+    <polygon
+       points="465.267,-151.764 460.467,-137.764 455.667,-151.764 460.467,-165.764 "
+       id="polygon3430"
+       style="fill:#000000" />
+    <polygon
+       points="465.267,-151.764 460.467,-137.764 455.667,-151.764 460.467,-165.764 "
+       id="polygon3432"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="107.013"
+       y="168.30499"
+       id="text3434"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:monospace" />
+    <text
+       x="471.46701"
+       y="-153.76401"
+       id="text3436"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace" />
+    <text
+       x="-242.44"
+       y="223.978"
+       id="text3438"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace">0..1</text>
+  </g>
+  <g
+     transform="translate(-34.276079,7.977944)"
+     id="g3440">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:2"
+       points="460.467,-140.683 460.467,172.438 852.472,172.438 852.472,227.978 "
+       id="polyline3442" />
+    <polygon
+       points="465.267,-151.855 460.467,-137.855 455.667,-151.855 460.467,-165.855 "
+       id="polygon3444"
+       style="fill:#000000" />
+    <polygon
+       points="465.267,-151.855 460.467,-137.855 455.667,-151.855 460.467,-165.855 "
+       id="polygon3446"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="656.46899"
+       y="168.438"
+       id="text3448"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:monospace" />
+    <text
+       x="471.46701"
+       y="-153.855"
+       id="text3450"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace" />
+    <text
+       x="856.47198"
+       y="223.978"
+       id="text3452"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace">0..*</text>
+  </g>
+  <g
+     transform="translate(-34.276079,7.977944)"
+     id="g3454">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:2"
+       points="460.467,-140.687 460.467,172.375 1225.03,172.375 1225.03,227.978 "
+       id="polyline3456" />
+    <polygon
+       points="465.267,-151.859 460.467,-137.859 455.667,-151.859 460.467,-165.859 "
+       id="polygon3458"
+       style="fill:#000000" />
+    <polygon
+       points="465.267,-151.859 460.467,-137.859 455.667,-151.859 460.467,-165.859 "
+       id="polygon3460"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="842.74701"
+       y="168.375"
+       id="text3462"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:monospace" />
+    <text
+       x="471.46701"
+       y="-153.85899"
+       id="text3464"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace" />
+    <text
+       x="1229.03"
+       y="223.978"
+       id="text3466"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace">0..1</text>
+  </g>
+  <g
+     transform="translate(-34.276079,7.977944)"
+     id="g3468">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:2"
+       points="460.466,406.059 460.466,405.86 460.466,405.86 460.466,452.01 "
+       id="polyline3470" />
+    <polygon
+       points="465.266,394.887 460.466,408.887 455.666,394.887 460.466,380.887 "
+       id="polygon3472"
+       style="fill:#000000" />
+    <polygon
+       points="465.266,394.887 460.466,408.887 455.666,394.887 460.466,380.887 "
+       id="polygon3474"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="462.466"
+       y="401.85999"
+       id="text3476"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace" />
+    <text
+       x="471.466"
+       y="392.88699"
+       id="text3478"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace" />
+    <text
+       x="464.466"
+       y="448.01001"
+       id="text3480"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace">0..*</text>
+  </g>
+  <g
+     transform="translate(-34.276079,7.977944)"
+     id="g3482">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:2"
+       points="105.492,326.159 105.492,460.732 105.492,460.732 105.492,620.476 "
+       id="polyline3484" />
+    <polygon
+       points="110.292,314.987 105.492,328.987 100.692,314.987 105.492,300.987 "
+       id="polygon3486"
+       style="fill:#000000" />
+    <polygon
+       points="110.292,314.987 105.492,328.987 100.692,314.987 105.492,300.987 "
+       id="polygon3488"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="105.492"
+       y="456.73199"
+       id="text3490"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:monospace" />
+    <text
+       x="116.492"
+       y="312.987"
+       id="text3492"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace" />
+    <text
+       x="109.492"
+       y="616.47601"
+       id="text3494"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace">0..*</text>
+  </g>
+  <path
+     d="m -7.0473321,542.87194 c -1.22825,29.40331 0.0382,55.89149 -0.42624,85.582"
+     id="polyline3498"
+     style="fill:none;stroke:#000000;stroke-width:2" />
+  <polygon
+     points="-83.24,523.723 -78.44,509.723 -73.64,523.723 -78.44,537.723 "
+     transform="translate(-34.276079,7.977944)"
+     id="polygon3500"
+     style="fill:#ffffff" />
+  <path
+     d="m -7.0473321,545.70094 -4.7999989,-14 4.7999989,-14 4.8,14 z"
+     id="polygon3502"
+     style="fill:#000000;stroke:#000000;stroke-width:2" />
+  <text
+     x="-20.750181"
+     y="569.07697"
+     id="text3504"
+     style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:monospace" />
+  <text
+     x="-101.71609"
+     y="529.70099"
+     id="text3506"
+     style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace" />
+  <text
+     x="-3.4735749"
+     y="624.45398"
+     id="text3508"
+     style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace">0..*</text>
+  <text
+     x="-196.71506"
+     y="578.30695"
+     id="text3518"
+     style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:monospace" />
+  <text
+     x="-101.71609"
+     y="529.70099"
+     id="text3520"
+     style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace" />
+  <g
+     transform="translate(-34.276079,7.977944)"
+     id="g3580">
+    <path
+       d="m -194.22577,534.894 c 1.00993,39.3666 0.15693,61.40093 0.62135,104.042"
+       id="polyline3512"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <path
+       d="m -194.22577,537.723 -4.8,-14 4.8,-14 4.8,14 z"
+       id="polygon3516"
+       style="fill:#000000;stroke:#000000;stroke-width:2" />
+    <text
+       x="-189.60487"
+       y="634.93597"
+       id="text3522"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace">0..*</text>
+  </g>
+  <path
+     d="m -430.74207,-30.105856 -37.01657,0 0,691.019796 76.96857,0"
+     id="polyline3526"
+     style="fill:none;stroke:#000000;stroke-width:2" />
+  <polygon
+     points="-385.294,-42.8838 -371.294,-38.0838 -385.294,-33.2838 -399.294,-38.0838 "
+     transform="translate(-34.276079,7.977944)"
+     id="polygon3528"
+     style="fill:#000000" />
+  <polygon
+     points="-385.294,-42.8838 -371.294,-38.0838 -385.294,-33.2838 -399.294,-38.0838 "
+     transform="translate(-34.276079,7.977944)"
+     id="polygon3530"
+     style="fill:none;stroke:#000000;stroke-width:2" />
+  <text
+     x="-510.72409"
+     y="311.40393"
+     id="text3532"
+     style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace" />
+  <text
+     x="-437.57007"
+     y="-34.105858"
+     id="text3534"
+     style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:end;fill:#000000;font-family:monospace" />
+  <text
+     x="-394.79007"
+     y="656.91394"
+     id="text3536"
+     style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:end;fill:#000000;font-family:monospace">0..*</text>
+  <g
+     transform="translate(-34.276079,7.977944)"
+     id="g3538">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:2"
+       points="460.466,529.182 460.466,576.311 460.466,576.311 "
+       id="polyline3540" />
+    <polygon
+       points="465.266,518.01 460.466,532.01 455.666,518.01 460.466,504.01 "
+       id="polygon3542"
+       style="fill:#000000" />
+    <polygon
+       points="465.266,518.01 460.466,532.01 455.666,518.01 460.466,504.01 "
+       id="polygon3544"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="462.466"
+       y="536.16101"
+       id="text3546"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace" />
+    <text
+       x="471.466"
+       y="516.01001"
+       id="text3548"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace" />
+    <text
+       x="464.466"
+       y="572.31097"
+       id="text3550"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace">0..*</text>
+  </g>
+  <g
+     transform="translate(-34.276079,7.977944)"
+     id="g3552">
+    <polyline
+       style="fill:none;stroke:#000000;stroke-width:2"
+       points="460.467,-140.598 460.467,172.228 -78.44,172.228 -78.44,456.716 "
+       id="polyline3554" />
+    <polygon
+       points="465.267,-151.769 460.467,-137.769 455.667,-151.769 460.467,-165.769 "
+       id="polygon3556"
+       style="fill:#000000" />
+    <polygon
+       points="465.267,-151.769 460.467,-137.769 455.667,-151.769 460.467,-165.769 "
+       id="polygon3558"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <text
+       x="191.013"
+       y="168.228"
+       id="text3560"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:monospace" />
+    <text
+       x="471.46701"
+       y="-153.769"
+       id="text3562"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace" />
+    <text
+       x="-74.440002"
+       y="452.716"
+       id="text3564"
+       style="font-size:12.79979992px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:monospace">0..*</text>
+  </g>
+</svg>
