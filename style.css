@@ -1,0 +1,124 @@
+:root {
+  --dark-grey: #333;
+  --dark-middle-grey: #555;
+  --middle-grey: #888;
+  --light-grey: #CCC;
+  --white: #FFF;
+  --bs-primary: 0 10px 15px -3px rgba(0,0,0,0.1);
+  --bs-secondary: 0 10px 30px -3px rgba(0,0,0,0.3);
+  --bs-tertiary: 0 0 30px -3px rgba(0,0,0,0.1);
+  --br-primary: 10px;
+  --br-secondary: 20px;
+  --tr-primary: .8s;
+  --ff-primary: "Poppins", sans-serif;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--ff-primary);
+}
+
+a {
+  color: var(--dark-middle-grey);
+  transition: var(--tr-primary);
+}
+
+a:hover {
+  color: var(--middle-grey);
+}
+
+body {
+  background-color: var(--dark-grey);
+}
+
+main {
+  background-color: var(--white);
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.wrapper {
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  flex-direction: inherit;
+}
+
+.project-title {
+  margin-bottom: 50px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 300px;
+  grid-gap: 50px;
+}
+.cards .card {
+  width: 100%;
+  height: 100%;
+  box-shadow: var(--bs-primary);
+  border-radius: var(--br-primary);
+  overflow: hidden;
+  position: relative;
+  transition: var(--tr-primary);
+}
+.cards .card img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.cards .card .content {
+  background-color: var(--white);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 15px 25px;
+  box-shadow: var(--bs-tertiary);
+  transition: var(--tr-primary);
+}
+.cards .card:hover {
+  box-shadow: var(--bs-secondary);
+}
+.cards .card:hover .content {
+  bottom: 50px;
+}
+.cards .card:before {
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  pointer-events: none;
+  transition: var(--tr-primary);
+}
+.cards .card:hover:before {
+  background-color: rgba(0, 0, 0, 0.5019607843);
+}
+
+@media (max-width: 700px) {
+  .cards {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
