@@ -13,7 +13,7 @@
   --br-secondary: 20px;
   --tr-primary: .8s;
   --tr-secondary: .4s;
-  --ff-primary: "Poppins", sans-serif;
+  --ff-primary: 'Poppins', sans-serif;
 }
 
 *, ::after, ::before {
@@ -71,49 +71,56 @@ ul {
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: 300px;
   grid-gap: 50px;
-}
-.cards .card {
-  width: 100%;
-  height: 100%;
-  box-shadow: var(--bs-primary);
-  border-radius: var(--br-primary);
-  overflow: hidden;
-  position: relative;
-  transition: var(--tr-primary);
-}
-.cards .card img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
-.cards .card .content {
-  background-color: var(--white);
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 15px 25px;
-  box-shadow: var(--bs-tertiary);
-  transition: var(--tr-primary);
-}
-.cards .card:hover {
-  box-shadow: var(--bs-secondary);
-}
-.cards .card:hover .content {
-  bottom: 50px;
-}
-.cards .card:before {
-  content: "";
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  position: absolute;
-  pointer-events: none;
-  transition: var(--tr-primary);
-}
-.cards .card:hover:before {
-  background-color: rgba(0, 0, 0, 0.5019607843);
+
+  .card {
+    width: 100%;
+    height: 100%;
+    box-shadow: var(--bs-primary);
+    border-radius: var(--br-primary);
+    overflow: hidden;
+    position: relative;
+    transition: var(--tr-primary);
+
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+
+    .content {
+      background-color: var(--white);
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 15px 25px;
+      box-shadow: var(--bs-tertiary);
+      transition: var(--tr-primary);
+    }
+
+    &:hover {
+      box-shadow: var(--bs-secondary);
+
+      .content {
+        bottom: 50px;
+      }
+    }
+
+    &:before {
+      content: "";
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      position: absolute;
+      pointer-events: none;
+      transition: var(--tr-primary);
+    }
+
+    &:hover:before {
+      background-color: #00000080;
+    }
+  }
 }
 
 @media (max-width: 700px) {
@@ -122,5 +129,3 @@ ul {
     gap: 1rem;
   }
 }
-
-/*# sourceMappingURL=style.css.map */

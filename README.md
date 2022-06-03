@@ -8,4 +8,4 @@ Fourth project of PHP/Symfony journey to learn web development with OpenClassroo
 
 **phpMyAdmin, MySQL, InnoDB, Diagrams.net**
 
-[Preview-site](https://florianjourde.github.io/OpenClassrooms-4-Design-the-technical-solution-for-an-online-restaurant-application-ExpressFood/)
+[![Preview site](https://img.shields.io/badge/Preview%20Site--e6e6e6?style=for-the-badge&logo=diagrams.net&logoColor=white)](https://florianjourde.github.io/OpenClassrooms-4-Design-the-technical-solution-for-an-online-restaurant-application-ExpressFood/)
