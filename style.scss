@@ -33,13 +33,11 @@ a:hover {
 }
 
 body {
-  background-color: var(--black);
+  background-color: var(--very-light-grey);
   counter-reset: section;
 }
 
 main {
-  background-color: var(--very-light-grey);
-  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 50px;
